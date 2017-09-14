@@ -1,0 +1,8 @@
+<H1>Welcome to Spring Boot-Angular4 Integration APP</H1>
+<H5>Please click on submit to post message to server</H5>
+<form (submit)="sayHello(name.value)">
+	<div>
+		<label for="name">Your Name Please</label> <input type="text" #name>
+		<button >Submit</button>
+	</div>
+</form>
